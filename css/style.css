@@ -2,15 +2,33 @@ body {
 	background: #504e4e;
 }
 
+p.sp {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+p.copi {
+    font-size: 0.7rem;
+    text-align: left;
+    margin-inline-start: 10px;
+    margin-block-start: 44%;
+}
+
+
 button.jd {
-	font-size: 1.3rem;
-	margin-top: 15px;
+	font-size: 2rem;
+	margin-inline-start: 33%;
+  margin-block-start: 12%;
 	color: white;
-	border: #18dcff;
-	background-color: #18dcff;
+  border-radius: 100px;
+  margin-bottom: 2%;
+	background-color: #282829;
 	cursor: pointer;
 	transition: .2s;
-	width: 100%;
+	width: 35%;
+  vertical-align: top;
+  vertical-align: left;
+  vertical-align: auto;
   }
 
 button.jd:hover {
@@ -18,14 +36,17 @@ button.jd:hover {
   }
 
 button.bi {
-	font-size: 1.3rem;
-	margin-top: 15px;
-	color: white;
-	border: #18dcff;
-	background-color: #18dcff;
+	font-size: 2rem;
+	margin-inline-start: 33%;
+	color: black;
+	border-radius: 100px;
+	background-color: #ffffff;
 	cursor: pointer;
 	transition: .2s;
-	width: 100%;
+	width: 35%;
+  vertical-align: top;
+  vertical-align: left;
+  vertical-align: auto;
   }
   
 button.bi:hover {
