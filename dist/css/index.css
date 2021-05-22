@@ -19,20 +19,6 @@ body {
     animation: 10s ease-in-out 0s infinite normal none running animfond;
 }
 
-.docslink::before {
-    content: "";
-    width: 6px;
-    height: 6px;
-    bottom: 0px;
-    left: 50%;
-    margin-left: -3px;
-    position: absolute;
-    transform: translateY(10px);
-    opacity: 0;
-    background: rgb(90, 192, 222);
-    border-radius: 50%;
-    transition: opacity 0.15s ease-out 0s, transform;
-}
 
 h2.title {
     display: block;
@@ -173,6 +159,12 @@ nav a.docslink {
 }
 
 nav a.docslink:hover {
+    color: white;
+}
+
+nav a.docslink::before {
+    content: "";
+    letter-spacing: 2px;
     color: white;
 }
 
