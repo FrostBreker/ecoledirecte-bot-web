@@ -54,11 +54,16 @@ button.jd {
     transition: .4s;
     color: white;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 button.jd:hover {
     background-color: rgb(81, 195, 233);
     letter-spacing: 2px;
+}
+
+a.jdlinks {
+    text-decoration: none;
 }
 
 button.bi {
@@ -73,11 +78,16 @@ button.bi {
 	background-color: rgb(59, 58, 58);
 	cursor: pointer;
 	transition: .4s;
+    text-decoration: none;
 }
 
 button.bi:hover {
     background-color: rgb(34, 33, 33);
     letter-spacing: 2px;
+}
+
+a.bilinks {
+    text-decoration: none;
 }
 
 button.bi img.bii {
@@ -109,6 +119,22 @@ nav input{
 
 nav input.mainmenu:hover{
     letter-spacing: 2px;
+}
+
+nav a.docslink {
+    color: gray;
+    transition: .2s;
+    text-decoration: none;
+    position: relative;
+    top: -55px; left: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+nav a.docslink:hover {
+    color: white;
 }
 
 .conteneur{
