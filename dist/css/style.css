@@ -1,5 +1,35 @@
 body {
-	background: #504e4e;
+	background: #333232;
+}
+
+h2.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3.subt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+img.imgbody {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(36, 34, 34);
 }
 
 p.sp {
@@ -14,44 +44,46 @@ p.copi {
     margin-block-start: 44%;
 }
 
-
 button.jd {
-	font-size: 2rem;
-	margin-inline-start: 33%;
-  margin-block-start: 12%;
-	color: white;
-  border-radius: 100px;
-  margin-bottom: 2%;
-	background-color: #282829;
-	cursor: pointer;
-	transition: .2s;
-	width: 35%;
-  vertical-align: top;
-  vertical-align: left;
-  vertical-align: auto;
-  }
+    font-size: 3rem;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(129, 204, 230);
+    transition: .4s;
+    color: white;
+    border-radius: 4px;
+}
 
 button.jd:hover {
-	letter-spacing: 2px;
-  }
+    background-color: rgb(81, 195, 233);
+    letter-spacing: 2px;
+}
 
 button.bi {
-	font-size: 2rem;
-	margin-inline-start: 33%;
-	color: black;
-	border-radius: 100px;
-	background-color: #ffffff;
+    display: block;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+	color: white;
+	border-radius: 4px;
+	background-color: rgb(59, 58, 58);
 	cursor: pointer;
-	transition: .2s;
-	width: 35%;
-  vertical-align: top;
-  vertical-align: left;
-  vertical-align: auto;
-  }
-  
+	transition: .4s;
+}
+
 button.bi:hover {
-	letter-spacing: 2px;
-  }
+    background-color: rgb(34, 33, 33);
+    letter-spacing: 2px;
+}
+
+button.bi img.bii {
+    display: inline;
+    width: 40px;
+}
 
 *{
     margin: 0px;
@@ -62,68 +94,21 @@ button.bi:hover {
 nav{
     width: 100%;
     margin: 0 auto;
-    background-color: #504e4e;;
+    background-color: #333232;
     position: sticky;
     top: 0px;
 }
 
-nav ul{
-    list-style-type: none;
+
+nav input{
+    transition: .2s;
+    margin-inline-start: 20px;
+    margin-block-start: 10px;
+    width: 5%;
 }
 
-nav ul li{
-    float: left;
-    width: 25%;
-    text-align: center;
-    position: relative;
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-}
-
-nav a:hover{
-    color: orange;
-    border-bottom: 2px solid gold;
-}
-
-.sous{
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: #363434;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-}
-nav > ul li:hover .sous{
-    display: block;
-}
-.sous li{
-    float: none;
-    width: 100%;
-    text-align: left;
-}
-.sous a{
-    padding: 10px;
-    border-bottom: none;
-}
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
-}
-.deroulant > a::after{
-    content:" ▼";
-    font-size: 12px;
+nav input.mainmenu:hover{
+    letter-spacing: 2px;
 }
 
 .conteneur{
