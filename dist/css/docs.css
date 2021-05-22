@@ -36,12 +36,6 @@ nav a.docslink {
     margin-bottom: auto;
 }
 
-nav a.docslink::before {
-    content: "";
-    letter-spacing: 2px;
-    color: white;
-}
-
 nav a.docslink:hover {
     color: white;
 }
