@@ -124,7 +124,7 @@
     width: 70px;
     justify-content: space-between;
     overflow: hidden;
-    
+
 }
 
 .scroll-text {
@@ -183,22 +183,95 @@
     padding: 0 100px;
 }
 
-.section-title {
-    position: relative;
-    font-family: "Abril Fatface", cursive;
-    font-size: 50px;
-    font-weight: 100;
-    background: rgb(52, 56, 60);
+.commandes {
+    background-color: rgb(38, 41, 44);
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-inline-end: 10px;
+    margin-bottom: 5px;
+    color: rgb(158, 158, 158);
+    user-select: none;
+    white-space: nowrap;
 }
 
-.section-title::before {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 7px;
-    background: rgb(52, 56, 60);
-    bottom: 0;
-    box-shadow: 0 2px 2px #0000001F;
+.f1-box {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1440px;
+    flex-direction: row-reverse;
+}
+
+.f1-img {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 0px;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+
+.f1 {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    padding-inline-end: 100px;
+}
+
+.f1 h1 {
+    font-size: 26px;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: white;
+    text-align: center;
+}
+
+.f1 p {
+    font-size: 19px;
+    color: rgb(150, 152, 153);
+    line-height: 1.8em;
+    margin-top: 5px;
+}
+
+.btn-login {
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(90, 192, 222);
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: .2s;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-login:hover {
+    letter-spacing: 2px;
 }
 
 .best-plants {
@@ -389,7 +462,8 @@
     text-decoration: none;
     position: relative;
     display: block;
-    transition: transform 0.4s;
+    transition: .2s;
+    opacity: 60%;
 }
 
 .nav-links-footer a::before {
@@ -398,8 +472,9 @@
     top: 100%;
 }
 
-.nav-links-foote a:hover {
+.nav-links-footer a:hover {
     transform: translateY(-100%);
+    opacity: 100%;
 }
 
 @media (max-width: 1150px) {
@@ -516,6 +591,30 @@
         min-width: 350px;
         height: 500px;
     }
+}
+
+@media (max-width: 970px) {
+
+    .f1 {
+        -webkit-box-align: center;
+        align-items: center;
+        padding-inline-end: 0px;
+        margin-top: 55px;
+    }
+
+    .f1-box {
+        max-width: 750px;
+        flex-direction: column;
+    }
+
+    .btn-login {
+        max-width: 300px;
+    }
+
+    .btn-login {
+        letter-spacing: 1px;
+    }
+
 }
 
 @media (max-width: 550px) {
