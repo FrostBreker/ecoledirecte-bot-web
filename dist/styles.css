@@ -21,10 +21,11 @@
     display: flex;
     align-items: center;
     padding: 0 50px;
+    background: rgb(52, 56, 60);
 }
 
 .logo {
-    width: 180px;
+    width: 120px;
 }
 
 .nav-links {
@@ -59,6 +60,7 @@
 
 .burger {
     display: none;
+    background: rgb(52, 56, 60);
 }
 
 .landing {
@@ -68,6 +70,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 100px;
+    background: rgb(52, 56, 60);
 }
 
 .big-title {
@@ -121,6 +124,7 @@
     width: 70px;
     justify-content: space-between;
     overflow: hidden;
+    
 }
 
 .scroll-text {
@@ -146,7 +150,7 @@
 
 .delivery-container {
     min-height: 300px;
-    background: white;
+    background: rgb(52, 56, 60);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -156,6 +160,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(52, 56, 60);
 }
 
 .delivery-icon {
@@ -169,11 +174,12 @@
     margin-top: 30px;
     width: 220px;
     text-align: center;
+    background: rgb(52, 56, 60);
 }
 
 .best-sales-container {
     min-height: 80vh;
-    background: white;
+    background: rgb(52, 56, 60);
     padding: 0 100px;
 }
 
@@ -182,6 +188,7 @@
     font-family: "Abril Fatface", cursive;
     font-size: 50px;
     font-weight: 100;
+    background: rgb(52, 56, 60);
 }
 
 .section-title::before {
@@ -189,7 +196,7 @@
     position: absolute;
     width: 50px;
     height: 7px;
-    background: #ADD981;
+    background: rgb(52, 56, 60);
     bottom: 0;
     box-shadow: 0 2px 2px #0000001F;
 }
@@ -199,6 +206,7 @@
     margin-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    background: rgb(52, 56, 60);
 }
 
 .plant1 {
@@ -222,7 +230,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #FFFFFFDF;
+    background: rgb(52, 56, 60);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +248,7 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    background: #FFFFFFDF;
+    background: rgb(52, 56, 60);
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -262,6 +270,7 @@
     padding: 0 100px;
     min-height: 150vh;
     margin-top: 50px;
+    background: rgb(52, 56, 60);
 }
 
 .grid-plants {
@@ -269,6 +278,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 400px);
+    background: rgb(52, 56, 60);
 }
 
 .plant-grid1 {
@@ -330,16 +340,66 @@
     justify-content: space-between;
     padding: 0 100px;
     flex-wrap: wrap;
+    background: rgb(29, 29, 29);
+}
+
+.footer-div {
+    line-height: 60px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.footer-title {
+    color: white;
+    padding-top: -60px;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .copyrights {
     padding-right: 20px;
+    color: white;
+    opacity: 40%;
 }
 
 .conditions {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 600;
+    padding-left: 1245px;
+}
+
+.nav-links-footer {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links-footer li {
+    margin: 40px;
+    overflow: hidden;
+}
+
+.nav-links-footer a {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: transform 0.4s;
+}
+
+.nav-links-footer a::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+}
+
+.nav-links-foote a:hover {
+    transform: translateY(-100%);
 }
 
 @media (max-width: 1150px) {
@@ -352,6 +412,7 @@
         width: 35px;
         height: 30px;
         position: relative;
+        background: rgb(52, 56, 60);
     }
 
     .burger {
@@ -367,7 +428,7 @@
     }
 
     .burger-container.active .burger {
-        background: transparent;
+        background: rgb(52, 56, 60);
     }
 
     .burger::before {
@@ -393,7 +454,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: white;
+        background: rgb(52, 56, 60);
         top: 8px;
         transition: transform 0.4s,
             top 0.4s background 0.4s;
@@ -436,10 +497,12 @@
         flex-direction: column;
         justify-content: center;
         padding: 50px;
+        background: rgb(52, 56, 60);
     }
 
     .delivery-container div {
         margin: 30px;
+        background: rgb(52, 56, 60);
     }
 
     .grid-plants {
@@ -506,5 +569,6 @@
 
     .footer {
         justify-content: center;
+        background: rgb(52, 56, 60);
     }
 }
