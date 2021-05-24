@@ -783,6 +783,16 @@ body {
         line-height: 50px;
     }
 
+    .f2-img {
+        width: 20%;
+        flex-direction: column;
+    }
+
+    .f3-img {
+        max-width: 500px;
+        flex-direction: column;
+    }
+
     .nav-links a {
         font-size: 20px;
     }
