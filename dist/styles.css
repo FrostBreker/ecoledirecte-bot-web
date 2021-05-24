@@ -678,14 +678,14 @@ body {
         font-size: 30px;
     }
 
-    .delivery-container {
+    .functions-container {
         flex-direction: column;
         justify-content: center;
         padding: 50px;
         background: rgb(52, 56, 60);
     }
 
-    .delivery-container div {
+    .functions-container div {
         margin: 30px;
         background: rgb(52, 56, 60);
     }
