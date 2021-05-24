@@ -738,7 +738,7 @@ body {
     }
 
     .f2-img {
-        max-width: 600px;
+        max-width: 500px;
         flex-direction: column;
     }
 
@@ -755,7 +755,7 @@ body {
     }
 
     .f3-img {
-        max-width: 600px;
+        max-width: 500px;
         flex-direction: column;
     }
 }
