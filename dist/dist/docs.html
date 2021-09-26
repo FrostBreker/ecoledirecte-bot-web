@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+    <title>EcoleDirecte - Le Bot Discord</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a class="active" href="#e!auth">e!Auth</a>
+        <a href="#e!devoirs">e!Devoirs</a>
+        <a href="#e!mess">e!Mess</a>
+        <a href="#e!moyenneg">e!Moyenneg</a>
+        <a href="#e!notes">e!Notes</a>
+        <a href="#e!notesall">e!Notesall</a>
+        <a href="#e!notesang">e!Notesang</a>
+        <a href="#e!notesfr">e!Notesfr</a>
+        <a href="#e!noteshigo">e!Noteshigo</a>
+        <a href="#e!notesmath">e!Notesmath</a>
+        <a href="#e!notesph">e!Notesph</a>
+        <a href="#e!notessvt">e!Notessvt</a>
+        <a href="#e!retard">e!Retard</a>
+        <a href="#e!top">e!Top</a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#e!compte">e!Compte</a>
+        <a href="#e!config">e!Config</a>
+        <a href="#e!help">e!Help</a>
+        <a href="#e!info">e!Info</a>
+    </div>
+
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <img src="images/logo.png" alt="ec-logo" class="logo">
+            <ul class="nav-links">
+                <li>
+                    <a href="#" data-text="Home">Accueil</a>
+                </li>
+                <li>
+                    <a href="#functions" data-text="Functions">Fonctionalités</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/nMk6kCcswX" data-text="Support" target="_blank">Serveur d'aide</a>
+                </li>
+                <li>
+                    <a href="https://ecole-directe-site.herokuapp.com/" data-text="Login" target="_blank"
+                        class="log">Connexion</a>
+                </li>
+            </ul>
+
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+
+        </header>
+
+        <div class="landing">
+            <h1 class="text-landing">Bienvenue sur la documentation du bot EcoleDirecte</h1>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section id="e!auth" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Connectez votre compte EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!auth</p>
+                <p>Ou en vous connectant sur le site:</p>
+                <a href="https://ecole-directe-site.herokuapp.com" data-text="Login" class="btn-login" target="_blank">
+                    Login
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!devoirs" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos devoir(s)</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!devoirs</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!devoirs &lt;number&gt; &lt;AAAA-MM-JJ&gt;</p>
+                <p>Le nombre correspond au devoir que vous voulez rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!mess" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos message(s) EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!mess</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!mess &lt;number&gt;</p>
+                <p>Le nombre correspond au message que vous voulez rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!moyenneg" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos moyenne(s) EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!moyenneg</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!moyenneg &lt;number&gt;</p>
+                <p>Le nombre correspond au trimestre que vous voulez rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notes" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notes</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notes &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notesall" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) d'allemand d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notesall</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notesall &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notesang" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) d'anglais d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notesang</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notesang &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notesfr" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) de Français d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notesfr</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notesfr &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!noteshigo" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) d'Histoire-Géographie d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!noteshigo</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!noteshigo &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notesmath" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) de Mathématique d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notesmath</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notesmath &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notesph" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) de Physique-Chimie d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notesph</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notesph &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!notessvt" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos note(s) de SVT d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notessvt</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!notessvt &lt;number&gt;</p>
+                <p>Le nombre correspond a la note que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!retard" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Recuperer vos retard d'EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!retard</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!retard &lt;number&gt;</p>
+                <p>Le nombre correspond au retard que vous rechercher:</p>
+                <p class="commandes">0 - ∞</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!top" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Faite un top de vos notes EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!top</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!top</p>
+                <h1>UNIQUEMENT UTILISABLE SOUS UN SERVEUR AYANT LA VERSION PRENIUM DU BOT</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="e!compte" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Voire votre compte EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!compte</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!compte</p>
+                <p>La commande affiche votre nom, prenom, classe, etc...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!config" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Faite votre config pour le bot EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!config</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!config</p>
+                <p>Vous avez ensuite 2 choix:</p>
+                <p>Confidentialité: c'est a dire P ou PV</p>
+                <p class="commandes">e!config ppv &lt;p&gt; ou &lt;pv&gt;</p>
+                <br />
+                <p>Photo: c'est l'affichage de votre photo sur les embed (EN DEV)</p>
+                <p class="commandes">e!config photo &lt;p&gt; ou &lt;pv&gt;</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!help" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Affiche l'aide du bot EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!help</p>
+                <p>sous ce format:</p>
+                <p class="commandes">e!help &lt;command_name&gt;</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="e!info" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Envois les information du serveur sur lequelle vous vous trouver</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!info</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="merci" class="functions-container">
+        <div class="f1-box">
+            <div class="f1">
+                <h1>Merci d'avoir lu la documentation ❤️</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer id="footer" class="footer">
+        <div class="footer-div">
+            <h1 class="footer-title">ECOLEDIRECTE</h1>
+            <p class="copyrights">&copy; Copyright 2021 FrostBreker</p>
+        </div>
+        <div class="footer-bas">
+            <div class="footer-bas-h2">
+                <h2 class="footer-bas-h2-1">Prêt à avoir vos notes, devoirs, etc sur Discord ?</h2>
+                <p class="footer-bas-p-1">EcoleDirecte est le meilleur bot Discord pour faire ses actions sur Discord.
+                </p>
+            </div>
+            <div class="footer-bas-button">
+                <button class="footer-bas-button-1" color="#5ac0de">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=837639493745246228&permissions=8&scope=bot"
+                        target="_blank">
+                        Ajouter à Discord
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="nav-links-footer">
+                <li>
+                    <a href="#" data-text="Home">Accueil</a>
+                </li>
+                <li>
+                    <a href="#functions" data-text="Functions">Fonctionalités</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/nMk6kCcswX" data-text="Support" target="_blank">Serveur d'aide</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>

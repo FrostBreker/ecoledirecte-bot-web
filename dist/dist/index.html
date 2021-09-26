@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+    <title>EcoleDirecte - Le Bot Discord</title>
+</head>
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <img src="images/logo.png" alt="ec-logo" class="logo">
+            <ul class="nav-links">
+                <li>
+                    <a href="#" data-text="Home">Accueil</a>
+                </li>
+                <li>
+                    <a href="#functions" data-text="Functions">Fonctionalités</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/nMk6kCcswX" data-text="Support">Serveur d'aide</a>
+                </li>
+                <li>
+                    <a href="/docs.html" data-text="Documentation" target="_blank">Documentation</a>
+                </li>
+                <li>
+                    <a href="https://ecole-directe-site.herokuapp.com/" data-text="Login" target="_blank" class="log">Connexion</a>
+                </li>
+            </ul>
+
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+        </header>
+        <div class="landing">
+            <h1 class="big-title">EcoleDirecte BOT!</h1>
+            <h2 class="sub-title">Recupéré vos notes et vos moyennes depuis Discord !</h2>
+            <div class="landing-button-1">
+            <a href="https://discord.com/api/oauth2/authorize?client_id=837639493745246228&permissions=8&scope=bot"
+                data-text="A votre serveur !" class="btn-invite" target="_blank">
+                Ajouter le Bot !
+            </a>
+        </div>
+
+            <a href="#functions" class="delivery-link">
+                <span class="scroll-text" data-text="Scroll">Faire défiler</span>
+                <i class="scroll-icon fas fa-angle-down"></i>
+            </a>
+        </div>
+    </section>
+    <section id="functions" class="functions-container">
+        <div class="f1-box">
+            <div class="f1-img">
+                <img src="images/portail-de-conexion.PNG" alt="portail-de-connexion" />
+            </div>
+            <div class="f1">
+                <h1>Connectez votre compte EcoleDirecte</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!auth</p>
+                <p>Ou en vous connectant sur le site:</p>
+                <a href="https://ecole-directe-site.herokuapp.com" data-text="Login" class="btn-login"
+                    target="_blank">
+                    Login
+                </a>
+            </div>
+            </div>
+        <div class="f2-box">
+            <div class="f2-img">
+                <img src="images/embed/embed-notes.PNG" alt="embed-notes" />
+            </div>
+            <div class="f2">
+                <h1>Recupéré vos notes:</h1>
+                <p>A l'aide de la commande:</p>
+                <p class="commandes">e!notes &lt;number&gt;</p>
+                <p>Regarder plus en detail son utilisation grace a cette commande</p>
+                <p class="commandes">e!help notes</p>
+            </div>
+            </div>
+        <div class="f3-box">
+                <div class="f3-img">
+                    <img src="images/embed/embed-moyenneg.PNG" alt="embed-notes" />
+                </div>
+                <div class="f3">
+                    <h1>Recupéré vos moyennes en choisissant le trimestre:</h1>
+                    <p>A l'aide de la commande:</p>
+                    <p class="commandes">e!moyenneg &lt;number&gt;</p>
+                    <p>Regarder plus en detail son utilisation grace a cette commande</p>
+                    <p class="commandes">e!help moyenneg</p>
+                </div>
+            </div>    
+    </section>
+    <footer id="footer" class="footer">
+        <div class="footer-div">
+            <h1 class="footer-title">ECOLEDIRECTE</h1>
+            <p class="copyrights">&copy; Copyright 2021 FrostBreker</p>
+        </div>
+        <div class="footer-bas">
+            <div class="footer-bas-h2">
+                <h2 class="footer-bas-h2-1">Prêt à avoir vos notes, devoirs, etc sur Discord ?</h2>
+                <p class="footer-bas-p-1">EcoleDirecte est le meilleur bot Discord pour faire ses actions sur Discord.</p>
+            </div>
+            <div class="footer-bas-button">
+                <button class="footer-bas-button-1" color="#5ac0de">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=837639493745246228&permissions=8&scope=bot" target="_blank">
+                    Ajouter à Discord
+                    </a>
+                </button>
+                </div>
+        </div>
+        <div class="navigation">
+            <ul class="nav-links-footer">
+                <li>
+                    <a href="#" data-text="Home">Accueil</a>
+                </li>
+                <li>
+                    <a href="#functions" data-text="Functions">Fonctionalités</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/nMk6kCcswX" data-text="Support" target="_blank">Serveur d'aide</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
